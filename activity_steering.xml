@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context=".SteeringActivity" >
+
+
+    <SearchView
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_alignParentTop="true"
+        android:background="#80DEEA"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search Here" />
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="689dp"
+        android:layout_marginTop="60dp"
+        android:divider="#f00"
+        android:dividerHeight="2dp"
+        android:listSelector="#0f0" />
+</RelativeLayout>
